@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: right;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  </div>  
+  <a href="#contact">Contact</a>
+</div>
+
+<div style="padding:0 16px">
+  <h3>Subnav/dropdown menu inside a Navigation Bar</h3>
+  <p>Hover over the "about", "services" or "partners" link to see the sub navigation menu.</p>
+</div>
+
+</body>
+</html>
+
+	<!-- Image menu in Header to contain an Image and 
+		a sample text over that image -->
+	<div id="header-image-menu">
+		<img src="images/slider.jpg">
+		<h2 id="image-te
+		</h2>
+	</div>
+</header>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limitless Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="container">
+            <div class="home-content">
+                <h1>Welcome to Limitless Services</h1>
+                <p>Your one-stop solution for Social Media Management, SEO, Web Design, SMS & Email Marketing, and more. We empower your digital presence with innovative strategies and real-time insights.</p>
+                <a href="#services" class="btn">Explore Our Services</a>
+            </div>
+            <div class="home-image">
+                <img src="https://i.ibb.co/6bk2gD1/hero-image.jpg" alt="Digital Services">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <img src="https://i.ibb.co/LnJNrqp/services-image.jpg" alt="Social Media Management">
+                    <h3>Social Media Management</h3>
+                    <p>We craft engaging social media strategies that connect you with your audience and boost your brand’s presence.</p>
+                </div>
+                <div class="service-item">
+                    <img src="https://i.ibb.co/LnJNrqp/services-image.jpg" alt="Search Engine Optimization">
+                    <h3>Search Engine Optimization</h3>
+                    <p>Optimize your website for search engines to improve your visibility and drive organic traffic.</p>
+                </div>
+                <div class="service-item">
+                    <img src="https://i.ibb.co/LnJNrqp/services-image.jpg" alt="Web Design & Development">
+                    <h3>Web Design & Development</h3>
+                    <p>We build responsive, user-friendly websites that reflect your brand and meet your business goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Have questions or want to work with us? We’d love to hear from you! Fill out the form, or contact us via the information below.</p>
+                    <ul>
+                        <li>Email: info@limitlessservices.com</li>
+                        <li>Phone: 9666086883</li>
+                        <li>Location: guntur mainroad Street, guntur, india</li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <form action="#" method="post">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section">
+        <div class="container">
+            <h2>Pricing Plans</h2>
+            <div class="pricing-grid">
+                <div class="pricing-item">
+                    <h3>Basic Plan</h3>
+                    <p class="price">$99 / month</p>
+                    <ul>
+                        <li>Social Media Management</li>
+                        <li>Email Marketing</li>
+                        <li>Basic SEO</li>
+                    </ul>
+                    <a href="#" class="btn">Get Started</a>
+                </div>
+                <div class="pricing-item">
+                    <h3>Pro Plan</h3>
+                    <p class="price">$199 / month</p>
+                    <ul>
+                        <li>Web Design & Development</li>
+                        <li>Advanced SEO</li>
+                        <li>Real-time Analytics</li>
+                    </ul>
+                    <a href="#" class="btn">Get Started</a>
+                </div>
+                <div class="pricing-item">
+                    <h3>Premium Plan</h3>
+                    <p class="price">$299 / month</p>
+                    <ul>
+                        <li>All Services Included</li>
+                        <li>Priority Support</li>
+                        <li>Customized Strategies</li>
+                    </ul>
+                    <a href="#" class="btn">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blogs Section -->
+    <section id="blogs" class="section">
+        <div class="container">
+            <h2>Our Latest Blogs</h2>
+            <div class="blogs-grid">
+                <div class="blog-item">
+                    <img src="https://i.ibb.co/xHsXDGt/blog-image.jpg" alt="Blog 1">
+                    <h3>Boost Your Online Presence</h3>
+                    <p>Discover the strategies to improve your digital footprint and engage more customers.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="blog-item">
+                    <img src="https://i.ibb.co/xHsXDGt/blog-image.jpg" alt="Blog 2">
+                    <h3>The Power of SEO</h3>
+                    <p>Learn how SEO can transform your website's visibility and search rankings.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+<div class="blog-item">
+                    <img src="https://i.ibb.co/xHsXDGt/blog-image.jpg" alt="Blog 3">
+                    <h3>Web Design Trends in 2024</h3>
+                    <p>Stay updated with the latest trends in web design that drive user engagement.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

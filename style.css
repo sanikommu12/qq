@@ -1,0 +1,298 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #001524;
+    color: #FFECD1;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #15616D;
+    height: 100vh;
+    color: #FFECD1;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    font-size: 48px;
+    color: #FF7D00;
+}
+
+.home-content p {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #FFECD1;
+}
+
+.home-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF7D00;
+    color: #001524;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #78290F;
+}
+
+/* Services Section */
+#services {
+    background-color: #001524;
+}
+
+#services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #FFECD1;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.service-item {
+    background-color: #15616D;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.service-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.service-item h3 {
+    margin: 15px 0 10px;
+    color: #FF7D00;
+}
+
+.service-item p {
+    color: #FFECD1;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+}
+
+/* Contact Section */
+#contact {
+    background-color: #001524;
+}
+
+#contact h2 {
+    font-size: 36px;
+    color: #FFECD1;
+    margin-bottom: 40px;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-info {
+    flex: 1;
+    color: #FFECD1;
+    margin-right: 20px;
+}
+
+.contact-info h3 {
+    color: #FF7D00;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin: 10px 0;
+}
+
+.contact-form {
+    flex: 1;
+    max-width: 400px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #15616D;
+    color: #FFECD1;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF7D00;
+    color: #001524;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #78290F;
+}
+
+/* Pricing Section */
+#pricing {
+    background-color: #15616D;
+}
+
+#pricing h2 {
+    font-size: 36px;
+    color: #FFECD1;
+    margin-bottom: 40px;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.pricing-item {
+    background-color: #001524;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pricing-item h3 {
+    color: #FF7D00;
+    margin-bottom: 15px;
+}
+
+.pricing-item .price {
+    font-size: 24px;
+    color: #FFECD1;
+    margin-bottom: 20px;
+}
+
+.pricing-item ul {
+    list-style: none;
+    padding: 0;
+    color: #FFECD1;
+}
+
+.pricing-item ul li {
+    margin-bottom: 10px;
+}
+
+.pricing-item .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF7D00;
+    color: #001524;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.pricing-item .btn:hover {
+    background-color: #78290F;
+}
+
+/* Blogs Section */
+#blogs {
+    background-color: #001524;
+}
+
+#blogs h2 {
+    font-size: 36px;
+    color: #FFECD1;
+    margin-bottom: 40px;
+}
+
+.blogs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.blog-item {
+    background-color: #15616D;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.blog-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.blog-item h3 {
+    margin: 15px 0;
+    color: #FF7D00;
+}
+
+.blog-item p {
+    color: #FFECD1;
+    margin-bottom: 20px;
+}
+
+.blog-item .btn {
+    padding: 10px 20px;
+    background-color: #FF7D00;
+    color: #001524;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.blog-item .btn:hover {
+    background-color: #78290F;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .contact-content,
+    .services-grid,
+    .pricing-grid,
+    .blogs-grid {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        margin-bottom: 20px;
+    }
+}
